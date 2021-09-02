@@ -1,0 +1,28 @@
+.flexBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    align-items: flex-end;
+    align-content: space-between;
+    background-color: transparent;
+}
+#box {
+    height:150px;
+    width:150px;
+    background-color:orange;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#boxQuokka {
+    height:150px;
+    width:150px;
+    background-image: url(quokka.png);
+    margin-left: 0px;
+    margin-top: 0px;
+    opacity: 0%;
+}
+p {
+    margin-left: 45px;
+}
